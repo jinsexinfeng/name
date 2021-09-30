@@ -2,7 +2,7 @@ VERSION 5.00
 Begin VB.Form Form1 
    AutoRedraw      =   -1  'True
    BorderStyle     =   1  'Fixed Single
-   Caption         =   "1∞‡µ„√˚…Ò∆˜"
+   Caption         =   "1Áè≠ÁÇπÂêçÁ•ûÂô®"
    ClientHeight    =   4620
    ClientLeft      =   -15
    ClientTop       =   330
@@ -12,10 +12,10 @@ Begin VB.Form Form1
    MinButton       =   0   'False
    ScaleHeight     =   4620
    ScaleWidth      =   3120
-   StartUpPosition =   3  '¥∞ø⁄»± °
+   StartUpPosition =   3  'Á™óÂè£Áº∫ÁúÅ
    Begin VB.CheckBox Check1 
       Appearance      =   0  'Flat
-      Caption         =   "÷√∂•¥∞ø⁄"
+      Caption         =   "ÁΩÆÈ°∂Á™óÂè£"
       ForeColor       =   &H80000008&
       Height          =   180
       Left            =   1080
@@ -25,7 +25,7 @@ Begin VB.Form Form1
    End
    Begin VB.CommandButton Command5 
       Appearance      =   0  'Flat
-      Caption         =   "∏¸…Ÿ"
+      Caption         =   "Êõ¥Â∞ë"
       Height          =   615
       Left            =   2280
       TabIndex        =   7
@@ -40,7 +40,7 @@ Begin VB.Form Form1
    End
    Begin VB.CommandButton Command4 
       Appearance      =   0  'Flat
-      Caption         =   "πˆ∂Ø"
+      Caption         =   "ÊªöÂä®"
       Height          =   495
       Left            =   240
       TabIndex        =   6
@@ -49,7 +49,7 @@ Begin VB.Form Form1
    End
    Begin VB.CommandButton Command3 
       Appearance      =   0  'Flat
-      Caption         =   "“ªº¸≥ÈΩ±/»À"
+      Caption         =   "‰∏ÄÈîÆÊäΩÂ•ñ/‰∫∫"
       Height          =   495
       Left            =   240
       TabIndex        =   5
@@ -58,7 +58,7 @@ Begin VB.Form Form1
    End
    Begin VB.CommandButton Command2 
       Appearance      =   0  'Flat
-      Caption         =   "÷ÿ÷√"
+      Caption         =   "ÈáçÁΩÆ"
       Height          =   615
       Left            =   240
       TabIndex        =   4
@@ -69,7 +69,7 @@ Begin VB.Form Form1
       Alignment       =   2  'Center
       Appearance      =   0  'Flat
       BeginProperty Font 
-         Name            =   "ÀŒÃÂ"
+         Name            =   "ÂÆã‰Ωì"
          Size            =   15.75
          Charset         =   134
          Weight          =   400
@@ -86,7 +86,7 @@ Begin VB.Form Form1
    End
    Begin VB.CommandButton Command1 
       Appearance      =   0  'Flat
-      Caption         =   "≥ÈΩ±"
+      Caption         =   "ÊäΩÂ•ñ"
       Height          =   615
       Left            =   240
       Style           =   1  'Graphical
@@ -97,7 +97,7 @@ Begin VB.Form Form1
    Begin VB.ListBox List1 
       Appearance      =   0  'Flat
       BeginProperty Font 
-         Name            =   "ÀŒÃÂ"
+         Name            =   "ÂÆã‰Ωì"
          Size            =   14.25
          Charset         =   134
          Weight          =   400
@@ -114,7 +114,7 @@ Begin VB.Form Form1
    Begin VB.Label Label1 
       Alignment       =   2  'Center
       BeginProperty Font 
-         Name            =   "ø¨ÃÂ"
+         Name            =   "Ê•∑‰Ωì"
          Size            =   26.25
          Charset         =   134
          Weight          =   400
@@ -152,16 +152,16 @@ Dim wg As Integer
 
 Private Sub Check1_Click()
  If Check1 = 1 Then
-SetWindowPos Me.hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOACTIVATE Or SWP_SHOWWINDOW Or SWP_NOSIZE Or SWP_NOMOVE '÷√∂•
+SetWindowPos Me.hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOACTIVATE Or SWP_SHOWWINDOW Or SWP_NOSIZE Or SWP_NOMOVE 'ÁΩÆÈ°∂
 Else
-'»°œ˚¥∞ø⁄‘⁄∂•≤„
-SetWindowPos Me.hWnd, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_NOACTIVATE Or SWP_SHOWWINDOW Or SWP_NOSIZE Or SWP_NOMOVE '≤ª÷√∂•
+'ÂèñÊ∂àÁ™óÂè£Âú®È°∂Â±Ç
+SetWindowPos Me.hWnd, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_NOACTIVATE Or SWP_SHOWWINDOW Or SWP_NOSIZE Or SWP_NOMOVE '‰∏çÁΩÆÈ°∂
 End If
 End Sub
 
 Private Sub Command1_Click()
 Randomize
-Command1.Caption = "≥ÈΩ±"
+Command1.Caption = "ÊäΩÂ•ñ"
 Timer1.Enabled = False
 way1:
 k = Int(Rnd() * 51 + 1)
@@ -171,7 +171,7 @@ List1.AddItem a(k)
 p(k) = True
 Else
 If p(1) = True And p(2) = True And p(3) = True And p(4) = True And p(5) = True And p(6) = True And p(7) = True And p(8) = True And p(9) = True And p(10) = True And p(11) = True And p(12) = True And p(13) = True And p(14) = True And p(15) = True And p(16) = True And p(17) = True And p(18) = True And p(19) = True And p(20) = True And p(21) = True And p(22) = True And p(23) = True And p(24) = True And p(25) = True And p(26) = True And p(27) = True And p(28) = True And p(29) = True And p(30) = True And p(31) = True And p(32) = True And p(33) = True And p(34) = True And p(35) = True And p(36) = True And p(37) = True And p(38) = True And p(39) = True And p(40) = True And p(41) = True And p(42) = True And p(43) = True And p(44) = True And p(45) = True And p(46) = True And p(47) = True And p(48) = True And p(49) = True And p(50) = True And p(51) = True Then
-Label1.Caption = "«Î÷ÿ÷√"
+Label1.Caption = "ËØ∑ÈáçÁΩÆ"
 Else
 GoTo way1
 End If
@@ -195,7 +195,7 @@ List1.AddItem a(k)
 p(k) = True
 Else
 If p(1) = True And p(2) = True And p(3) = True And p(4) = True And p(5) = True And p(6) = True And p(7) = True And p(8) = True And p(9) = True And p(10) = True And p(11) = True And p(12) = True And p(13) = True And p(14) = True And p(15) = True And p(16) = True And p(17) = True And p(18) = True And p(19) = True And p(20) = True And p(21) = True And p(22) = True And p(23) = True And p(24) = True And p(25) = True And p(26) = True And p(27) = True And p(28) = True And p(29) = True And p(30) = True And p(31) = True And p(32) = True And p(33) = True And p(34) = True And p(35) = True And p(36) = True And p(37) = True And p(38) = True And p(39) = True And p(40) = True And p(41) = True And p(42) = True And p(43) = True And p(44) = True And p(45) = True And p(46) = True And p(47) = True And p(48) = True And p(49) = True And p(50) = True And p(51) = True Then
-Label1.Caption = "«Î÷ÿ÷√"
+Label1.Caption = "ËØ∑ÈáçÁΩÆ"
 Else
 GoTo way2
 End If
@@ -204,14 +204,14 @@ Next i
 End Sub
 
 Private Sub Command4_Click()
-Command1.Caption = "Õ£÷ππˆ∂Ø≤¢≥ÈΩ±"
+Command1.Caption = "ÂÅúÊ≠¢ÊªöÂä®Âπ∂ÊäΩÂ•ñ"
 Timer1.Enabled = True
 End Sub
 
 Private Sub Command5_Click()
 If wg = 0 Then
 Form1.Height = 2400
-Command5.Caption = "∏¸∂‡"
+Command5.Caption = "Êõ¥Â§ö"
 Command4.Visible = False
 Command3.Visible = False
 Command2.Visible = False
@@ -222,7 +222,7 @@ Exit Sub
 End If
 If wg = 1 Then
 Form1.Height = 5205
-Command5.Caption = "∏¸…Ÿ"
+Command5.Caption = "Êõ¥Â∞ë"
 Command4.Visible = True
 Command3.Visible = True
 Command2.Visible = True
@@ -241,13 +241,13 @@ Check1 = 1
 Command1.BackColor = RGB(255, 204, 108)
 '*****
 For k = 1 To 51
-a(k) = "–’√˚" & Val(k)
+a(k) = "ÂßìÂêç" & CStr(k)
 Next k
 '*****
 End Sub
 
 Private Sub Label1_DblClick()
-Label1.Caption = "Au÷∆◊˜"
+Label1.Caption = "AuÂà∂‰Ωú"
 End Sub
 
 Private Sub Timer1_Timer()
